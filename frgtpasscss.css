@@ -1,0 +1,60 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Calibri;
+  background-attachment: fixed;
+}
+header{
+  background-image:url(heartp.jpeg); 
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+.simpleform
+{
+  width:300px;
+  height:200px;
+  background-color:black;
+  opacity: 0.5;
+  color:black;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  left:50%;
+  top:40%;
+  text-align: left;
+  padding:70px 30px;
+  box-sizing: border-box;
+}
+.simpleform input[type="text"]
+  {
+  border: none;
+  border-bottom: 1px solid white;
+  background-color: transparent;
+  outline: none;
+  height: 40px;
+  color: white;
+  font-size: 16px;
+
+}
+
+
+.simpleform input[type="submit"]
+{
+  border: none;
+  outline:none;
+  height:50px;
+  width: 110px;
+  background-color: white;
+  color:black;
+  border: 2px solid black;
+  font-size: 25px;
+  border-radius: 30px;
+  transition: 0.4s ease;
+
+}
+
+.simpleform input[type="submit"]:hover{
+  cursor: pointer;
+  background-color: pink;
+  color:black;
+}
